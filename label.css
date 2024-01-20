@@ -1,0 +1,142 @@
+/*Name: Siva Anand Sivakumar 
+    Date:  04/21/2023
+    Corse: IT202
+    Section: 006
+    Assignment: Unit 11 Assignment 
+    Email: ss546@njit.edu 
+    This is the styles for the shipping label page.
+*/
+header {
+    font-family: Apple Chancery, Snell Roundhand, UURW Chancery L, Comic Sans MS, Comic Sans, cursive;
+    font-size:2.5em;
+    background-color: #FEFBE9;
+    color:#183A1D;
+    border: 2px solid #7C6A0A;
+    padding:1em;
+    margin-bottom: 1em;
+}
+.right {
+    padding-right:40px;
+    float:right;
+}
+footer {
+    margin-top: 2em;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    background-color:#f8f7c6;
+    color:black;
+    border: 2px solid #9fcfa1;
+    padding:1em;
+    margin-bottom: 1em;
+}
+body {
+    background-color: #E1EEDD;
+
+}
+nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+nav li {
+    float:left;
+}
+nav ul {
+    font-size:26px;
+    list-style-type: none;
+    overflow:hidden;
+    text-align: center;
+    background-color:  #d69856;
+
+}
+nav a:hover{
+    background-color: #bc7b36;
+
+}
+/* The background colors are white since most shipping labels have white backgrounds. */
+
+nav a {
+    display: block;
+    color:white; 
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+main {
+    background-color: white;
+    font-family:Arial, Veranda, Helevetica, Century Gothic, Geneva, Rooney;
+    margin: auto;
+    height: 950px;
+    width:800px;
+    border:4px solid black;
+    
+}
+#priority {
+    width: 100%;
+    float:overflow;
+    height:160px;
+    border-bottom: 3px solid black;
+}
+#priority img {
+    height: 160px;
+    float:left;
+}
+#dpriority {
+    float:left;
+    width:150px;
+    font-size:150px;
+    font-weight: 400;
+    height:160px;
+    border-right:3px solid black;
+}
+#bstamp{
+    float:right;
+}
+
+#mtitle { 
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+#lfrom{
+    margin-bottom: 40px;
+    width: 100%;
+    float:left;
+}
+#oinfo {
+    float:right; 
+    padding-right: 20px;
+}
+#faddress{
+    float:left;
+    width:50%;
+    padding-left: 20px;
+}
+#taddress{
+    width:100%;
+    
+    font-size: 1.2em;
+    height:350px;
+    border-bottom: 4px solid black;
+}
+#lleft {
+    padding-left:32%;
+    height:150px;
+    float: left;
+}
+#rright{
+    height:150px;
+    padding-left: 5%;
+    font-family:Arial, Veranda, Helevetica, Century Gothic, Geneva, Rooney;
+    float: left;
+}
+
+#ccode{
+    width:100%;
+    text-align: center;
+    font-size: 3em; 
+    font-weight: bold;
+}
+#tracking{
+    height:200px;
+    width:100%;
+    border-bottom: 4px solid black;
+}

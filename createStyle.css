@@ -1,0 +1,138 @@
+/*Name: Siva Anand Sivakumar 
+    Date:  04/21/2023
+    Corse: IT202
+    Section: 006
+    Assignment: Unit 11 Assignment 
+    Email: ss546@njit.edu 
+*/
+header {
+    font-family: Apple Chancery, Snell Roundhand, UURW Chancery L, Comic Sans MS, Comic Sans, cursive;
+    font-size:2.5em;
+    background-color: #FEFBE9;
+    color:#183A1D;
+    border: 2px solid #7C6A0A;
+    padding:1em;
+    margin-bottom: 50px;
+}
+.right {
+    padding-right:40px;
+    float:right;
+}
+.error {
+    font-family: Courier, Verdana, Times, serif;
+    color: red; 
+}
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:12px;
+    background-color: #f8f7c6;
+    color:black;
+    border: 2px solid #9fcfa1;
+    padding:1em;
+    margin-top:40px;
+}
+body {
+    background-color: #E1EEDD;
+
+}
+figcaption{
+    float:clear;
+    font-style: italic;
+    font-size:0.8em;
+    caption-side: bottom;
+    font-family: Lucida Sans, Arial, 'Times New Roman', Times, serif; 
+    
+}
+main figure {
+    width: 20%;
+    padding:2em;
+}
+main figure img{
+    vertical-align: top;
+}
+nav {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+nav li {
+    float:left;
+}
+nav ul {
+    font-size:26px;
+    list-style-type: none;
+    overflow:hidden;
+    text-align: center;
+    background-color:  #d69856;
+
+}
+form {
+    font-family: Courier, Verdana, Times, serif;
+    background-color: rgb(164, 234, 247);
+    text-align:left;
+    width:fit-content;
+    padding:1em;
+    margin-left:auto;
+    margin-right: auto;
+    height:fit-content;
+}
+form input {
+    align-content: right;
+}
+
+#shipping{
+    align-items: left;
+}
+#create{
+    align-items: left;
+}
+#submit{
+    margin-top: 20px;
+}
+nav a:hover{
+    background-color: #bc7b36;
+
+}
+nav a {
+    display: block;
+    color:white; 
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+main {
+    height:450px;
+    float:clear;
+    width:100%;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+#desc {
+    font-size:1.2em;
+    justify-content:center;
+    vertical-align: middle;
+    align-items: center;
+    padding:2em;
+}
+div {
+    text-align:center;
+    justify-content: center;
+    
+}
+img{
+    border: #E1EEDD;
+    justify-content:center;
+    align-items: center;
+}
+.top {
+    /*background-color: #E88D67;*/
+    height:300px;
+}
+.middle {
+    /*background-color: #7B8CDE;*/
+    height:300px;
+}
+.bottom {
+    /*background-color: #C0E6DE;*/
+    height:300px;
+}
