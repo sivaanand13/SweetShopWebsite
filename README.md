@@ -1,4 +1,2 @@
-# SweetShopWebsite
-This is the complete version of the website created for my IT 202 class.
-
-The website uses MySQL database to store user and shop information. The frontend is composed of HTML/CSS/Javascript and the backend scripting is done using PHP. 
+The Sweet Shop Website lets users view the shop's information, including all the sweets offered and their prices, descriptions, and images. Furthermore, the website allows admin login to update prices, descriptions, and items offered. 
+The website uses a MySQL database to store user and shop information. The front end comprises HTML, CSS, and JavaScript, and the back-end scripting was done using PHP.
